@@ -46,8 +46,7 @@ void setup() {
   copyWebFiles(true);
   logging("setup :: copyWebFiles DONE");
 
-  logging("setup :: Starting copyWebFiles ...");
-  createDefaultsSettingsJSON();
+  logging("setup :: Starting copyWebFiles ...");  
   startAP();
   logging("setup :: startAP DONE");
 
